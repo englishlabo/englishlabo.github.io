@@ -1,0 +1,5 @@
+use animals
+
+The bear is bigger than the lion
+
+The cat is friendlier than the dog
