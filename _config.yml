@@ -28,6 +28,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+exclude: ['README.md']
+
 defaults:
   -
     scope:
@@ -41,6 +43,7 @@ defaults:
 header_pages:
   - activities/activities.md
   - school_life/school_life.md
+  - testing/testing.md
   - about.md
 
 # Exclude from processing.
