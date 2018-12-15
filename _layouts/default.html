@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html>
 
-  {%- include head.html -%}
+  {% include head.html %}
 
   <body>
 
-    {%- include header.html -%}
+    {% include header.html %}
 
-    <main class="page-content" aria-label="Content">
+    <div class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
-    </main>
+    </div>
 
-    {%- include footer.html -%}
-
+    {% include footer.html %}
   </body>
 
 </html>
+<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->
