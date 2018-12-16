@@ -14,6 +14,9 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-seo-tag
+
 # Other options
 permalink: blog/:year/:month/:title
 job.title: "Native English Teacher"
