@@ -10,3 +10,5 @@ Things to know about school life. There are many differences in Japanese schools
 <h3> Hint </h3>
 Customize the activity to fit your students needs. Make it easier or more difficult by take out or including more information.
 </div>
+
+<a class="iconLink"  href="/activities/past_tense_boardgame.html">Past Tense</a>
