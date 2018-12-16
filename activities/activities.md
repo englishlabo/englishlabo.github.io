@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Activities
-categories: "/activities/"
+categories: /activities/
 permalink: /activities/
 ---
 
