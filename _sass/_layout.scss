@@ -76,6 +76,8 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $brown-color-light;
+    position: relative;
 }
 
 .footer-heading {
@@ -145,6 +147,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    min-height: calc(70vh - 25px);
 }
 
 .page-heading {
@@ -177,14 +180,19 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    background-image: linear-gradient(to right,  #876D99 ,#9D86AD , #E2DFE9, #fff, #fff);
+    border-radius: 30px;
+
 }
 
 h1 /* .post-title */ {
-/*    font-size: 42px; */
-    letter-spacing: -1px;
+    font-size: 2rem;
+    letter-spacing: 1px;
     line-height: 1;
-		font-family: 'Titillium Web', sans-serif;
-		color: #522d80;
+    margin-left: 20px;
+    padding: 10px;
+		font-family: 'Roboto', sans-serif;
+		color: #fff;
 
     @include media-query($on-laptop) {
 /*        font-size: 36px; */
@@ -195,7 +203,7 @@ h1 /* .post-title */ {
     margin-bottom: $spacing-unit;
 
     h2 {
-		font-family: 'Titillium Web', sans-serif;
+		font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 /*        font-size: 32px; */
 
@@ -205,7 +213,7 @@ h1 /* .post-title */ {
     }
 
     h3 {
-		font-style: italic;
+/*		font-style: italic;*/
 /*        font-size: 26px; */
 
         @include media-query($on-laptop) {
@@ -220,6 +228,19 @@ h1 /* .post-title */ {
 /*            font-size: 18px; */
         }
     }
+
+.iconLink:before {
+    padding-right: 1em;
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c8";
+    color: #D3307E;
+    font-weight: 900;
+}
+
+.iconLink{
+    text-decoration: none;
+    font-weight: 500;
+}
 }
 
 						.footnotes ol li {list-style-type:decimal;}
@@ -237,7 +258,7 @@ ul.listing {
 ul.listing li.listing-seperator {
 	padding-top: 15px;
 	font-weight: bold;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.17em;
 }
 
@@ -252,6 +273,25 @@ ul.listing li.listing-item time {
 ul.listing li.listing-item a {
 	color: $clemson-purple;
 	font-weight: 400;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
+/* Textbook Styling */
+
+.hint {
+    border-style: solid;
+    border-color: #D3307E;
+    background: #FFFBDD;
+    padding: 35px;
+    border-radius: 15px;
+    margin: 30px 0;
+    margin-left: -10px;
+    max-width: 700px;
+    box-shadow: 5px 5px 5px #DBD9D9;
+
+    h3 {
+        color: #D3307E;
+        font-weight: bold;
+
+    }
+}

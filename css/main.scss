@@ -6,10 +6,10 @@
 
 
 // Our variables
-$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-$base-font-size:   .95em;
+$base-font-family: 'Roboto', Helvetica, Arial, sans-serif;
+$base-font-size:   1.2em;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.6;
 
 $spacing-unit:     30px;
 
@@ -25,6 +25,8 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$green-color: #71B055;
+$brown-color-light: #F1EAD6;
 
 // Width of the content area
 $content-width:    950px;

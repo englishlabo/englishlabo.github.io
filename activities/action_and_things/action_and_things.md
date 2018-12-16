@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Action and Things
-categories: activities
+categories: "/activities/"
 ---
 
 Action and things is a board game where students match up their the action with a thing.

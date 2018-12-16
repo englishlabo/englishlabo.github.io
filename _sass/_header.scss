@@ -3,9 +3,9 @@
  */
 .site-header {
     border-top: 0px solid $grey-color-dark;
-	border-bottom: 4px solid $clemson-purple;
-    min-height: 56px;
-    background: $clemson-orange;
+//	border-bottom: 5px solid $green-color;
+    min-height: 65px;
+    background: $green-color;
     // Positioning context for the mobile navigation icon
     position: relative;
 
@@ -14,12 +14,12 @@
 .site-title {
     font-size: 26px;
 /* 		margin-top: 15px;
-    line-height: 40px; */
-    letter-spacing: -1px;
+    line-height: 40px;
+    letter-spacing: 2px;  */
     margin-bottom: 0;
     float: left;
-    font-weight: 500;
-		font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+		font-family: 'Roboto', sans-serif;
     color: #ffffff;
     &,
     &:visited {
@@ -27,7 +27,12 @@
     }
     &,
     &:hover {
-	text-decoration: none;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #3e8e41;
+    padding: 5px;
+    text-shadow: 2px 2px #3e8e41;
+
 }
 }
 
@@ -40,30 +45,33 @@
 	color: #fff;
 }
 
+/* navigation positioning */
 .site-nav ul {
 
 	text-align: right;
 	float: right;
-	padding-top: 9px;
-	font-size: 85%;
+    padding-top: 9px;
+	font-size: 75%;
 	letter-spacing: 1px;
 	line-height: 1em;
 	font-weight: 600;
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	text-transform: uppercase;
-		font-family: 'Titillium Web', sans-serif;
+	text-transform: lowercase;
+		font-family: 'Roboto', sans-serif;
 
 }
 
-.site-nav .menu > li {
+/* navigation
 	border-bottom: 3px solid transparent;
+ */
+.site-nav .menu > li {
 	display: inline-block;
-	height: 23px;
+	height: 28px;
 	line-height: normal;
-	margin: 12px 0 0 20px;
-	padding: 0 0 2px 0;
+	margin: 6px 0 0 0;
+	padding: 0 0 0 0;
 	position: relative;
 	vertical-align: top;
 }
@@ -73,7 +81,7 @@
         color: #ffffff;
 }
 
-/* Sub Menu */
+/* Sub Menu 
 
 .site-nav .sub-menu a {
 	display: block;
@@ -82,7 +90,7 @@
 	letter-spacing: 0;
 	line-height: 1.2em;
 	padding: 4px 10px;
-color: #522d80;
+    color: #522d80;
 
 }
 
@@ -107,10 +115,10 @@ color: #522d80;
 .sub-menu {
 	border: 3px solid transparent;
 	border-top: 0;
-	/* bg and border colors set in header */
-	box-shadow: 0 2px 2px rgba(0,0,0,0.4);
-	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.4);
-	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+	// bg and border colors set in header //
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 	display: none;
 	right: -10px;
 	padding: 4px 0 3px 0;
@@ -121,7 +129,7 @@ color: #522d80;
 	min-width: 265px;
 
 z-index:999;
-	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
 
 }
 
@@ -129,10 +137,12 @@ z-index:999;
 	border-bottom: 0;
 	display: block;
 	height: auto;
-	margin: 3px 0;
+	margin: 5px 0;
 	padding: 0;
 	text-align: left;
 }
+
+*/
 
 .site-nav li:hover > .sub-menu {
 	display: block;
@@ -148,25 +158,51 @@ z-index:999;
 
 .site-nav {
     float: right;
-    line-height: 40px;
+    line-height: 45px;
 
 
     .menu-icon {
         display: none;
     }
 
-    .page-link {
-        color: #ffffff;
-    background: $clemson-orange;
-        line-height: $base-line-height;
+    /* navigation text */
 
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
+    .active {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background: $clemson-orange;
     }
 
+    .page-link {
+        color: #ffffff;
+//          background: $clemson-orange;
+        line-height: $base-line-height;
+        text-decoration: none;
+        padding: 5px 20px 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
 
+
+/*        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 0px;
+        }
+*/
+
+
+
+
+/*        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 0px;
+        }
+*/
+    }
+
+    .page-link:hover {
+        background-color: #3e8e41;
+        color: white;
+    }
 
     @include media-query($on-palm) {
         position: absolute;

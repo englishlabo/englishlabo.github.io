@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Clear Speech
-categories: activities
+categories: "/activities/"
 ---
 
 This activities has students listen and compare different sounds.

@@ -1,22 +1,11 @@
 - title: "About"
   href: "/about/"
 
-- title: "Blog"
-  href: "/blog/"
-
 - title: "Activities"
   href: "/activities/"
 
 - title: "Lesson Planning"
-  href: "/lesson_planning"
+  href: "/lesson_planning/"
 
 - title: "School Life"
-  href: "/school_life"
-
-- title: "Miscellany"
-  href: "/miscellany/"
-  subcategories:
-    - subtitle: "Item 1"
-      subhref: "/miscellany/item-1/"
-    - subtitle: "Item 2"
-      subhref: "/miscellany/item-2/"
+  href: "/school_life/"
