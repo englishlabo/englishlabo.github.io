@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Farewell Speech
+categories: "/school_life/"
+
 ---
 
 Hello everyone, 
