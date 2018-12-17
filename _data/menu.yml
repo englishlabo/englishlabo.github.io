@@ -1,6 +1,9 @@
 - title: "About"
   href: "/about/"
 
+- title: "Activities"
+  href: "/activities/"
+
 - title: "Lesson Planning"
   href: "/lesson_planning/"
 
@@ -8,4 +11,4 @@
   href: "/school_life/"
 
 - title: "Resources"
-  href: "/resources"
+  href: "/resources/"

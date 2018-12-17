@@ -18,4 +18,7 @@ Customize the activity to fit your students needs. Make it easier or more diffic
 
 <a class="iconLink"  href="/lesson_planning/activities/clear_speech/clear_speech.html">Clear Speech</a>
 
-<h2> Test
+<a class="iconLink"  href="/lesson_planning/activities/can_you/can_you.html">Can You Questions</a>
+
+
+<h2> Test </h2>

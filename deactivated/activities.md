@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Activities
-permalink: /activities/
 categories: /activities/
+permalink: /activities/
 ---
 
-New Activities Page
+This page will have some activities.

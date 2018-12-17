@@ -5,6 +5,7 @@ categories: "/school_life/"
 
 ---
 
+<div class="paper">
 Hello everyone, 
 
 I’ve really enjoyed working at 
@@ -26,10 +27,11 @@ Finally, to all the students,
 it is because of you that I have had such an amazing time in ____ High School. 
 
 Thank you very much.
-
+</div>
 
 <br>
 
+<div class="paper">
 Mina-san, Konnichiwa,
 
 Watashi wa go nenkan 
@@ -59,3 +61,4 @@ mina-san no okage-de Yahata Kogyo Koukou de
 konna-ni tano shii jikan wo sugosu koto ga dekimashita. 
 
 Hontō ni arigatō gozaimashita.
+</div>
