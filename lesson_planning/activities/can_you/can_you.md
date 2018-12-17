@@ -6,6 +6,8 @@ categories: /lesson_planning/
 
 Can you say the names of three vegetables in English?
 
+Yes, I can. Apple, grape, and peach.
+
 Can you remember what you had for dinner two days ago?
 
 Can you say "green pepper" in Japaneese?
