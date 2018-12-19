@@ -180,7 +180,7 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-    background-image: linear-gradient(to right,  #876D99 ,#9D86AD , #E2DFE9, #fff, #fff);
+    background-image: linear-gradient(to right,  #876D99 50%, #9D86AD 60%, #fff 95%);
     border-radius: 30px;
 
 }
@@ -298,10 +298,13 @@ ul.listing li.listing-item a {
 
 .paper {
     border-color: $grey-color-light;
-    background: $brown-color-mid;
-    padding: 50px 35px 35px 35px;
+    border-style: solid;
+    border-width: thin;
+    background: #fff;
+    padding: 80px 30px 70px 90px;
     margin: 30px 0;
     margin-left: -10px;
+    border-radius: 10px;
     max-width: 700px;
-    box-shadow: 5px 5px 5px #DBD9D9;
+    box-shadow: 2px 2px 2px #DBD9D9;
 }

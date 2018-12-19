@@ -162,49 +162,67 @@ z-index:999;
     float: right;
     line-height: 45px;
 
-
     .menu-icon {
         display: none;
     }
 
     /* navigation text */
 
+    #about {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;    
+        background: #68A683;
+    }
+
+    #activity {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;    
+        background: #9D86AD;
+    }
+
+    #lesson_planning {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;    
+        background: #C64E47;
+    }
+
+    #school_life {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;    
+        background: #E6B245;
+    }
+
+    #resources {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;    
+        background: #6DBCE6;      
+    }
+
+    .page-link:hover {
+        background-color: #6DBCE6;
+    }
+
+    .page-link {
+        color: #ffffff;
+        line-height: $base-line-height;
+        text-decoration: none;
+        padding: 5px 20px 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;    
+    }
+
     .active {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         background: $clemson-orange;
     }
-
-    .page-link {
-        color: #ffffff;
-//          background: $clemson-orange;
-        line-height: $base-line-height;
-        text-decoration: none;
-        padding: 5px 20px 0;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-
-
-/*        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 0px;
-        }
-*/
-
-
-
-
-/*        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 0px;
-        }
-*/
-    }
-
+    
+/*
     .page-link:hover {
         background-color: #3e8e41;
         color: white;
     }
+*/
 
     @include media-query($on-palm) {
         position: absolute;

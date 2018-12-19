@@ -1,14 +1,19 @@
 - title: "About"
   href: "/about/"
+  id: about
 
 - title: "Activities"
   href: "/activity/"
+  id: activity
 
 - title: "Lesson Planning"
   href: "/lesson_planning/"
+  id: lesson_planning
 
 - title: "School Life"
   href: "/school_life/"
+  id: school_life
 
 - title: "Resources"
   href: "/resources/"
+  id: resources

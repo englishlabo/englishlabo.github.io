@@ -10,7 +10,8 @@
                {% endfor %}
           </ul>
           {% else %}
-     <li {% if navi.href==page.categories %} class="active" {% endif %}><a href="{{ navi.href }}" class="page-link">{{
+     <li id="{{ navi.id }}" {% if navi.href==page.categories %} class="active" {% endif %} ><a href="{{ navi.href }}"
+               class="page-link">{{
                navi.title }}</a>
           {% endif %}
      </li>
